@@ -1,0 +1,5 @@
+package com.xx.vote.type;
+
+public enum SensitiveType {
+  NONE, DEFAUL, CHINESE_NAME, ID_CARD, FIXED_PHONE, MOBILE_PHONE, ADDRESS, EMAIL, BANK_CARD, CNAPS_CODE, PAY_SIGN_NO;
+}

@@ -1,0 +1,39 @@
+spring:
+  datasource:
+    druid:
+      #    【MySQL 连接】
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/vote?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+      username: ENC(Sc6GK5vPPRHDeMOZE+onUw==)
+      password: ENC(Nw3/Al53rZcFuVySOCuDDvfhBOKky5KT)
+      db-type: com.alibaba.druid.pool.DruidDataSource
+  # Redis 配置
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    #password: f3GQj*wo
+    database: 1
+
+# swagger配置
+# 路径 /doc.html
+swagger:
+  enabled: true
+  title: 小薛管理平台
+  basePackage: com.xx.vote.controller
+  description: 小薛管理平台接口文档
+  contact:
+    name: tcm
+
+knife4j:
+  enable: true
+
+
+#mybatis 数据库加解密
+mybatis:
+  #数据库加解密插件密钥key
+  encrypt:
+    key: NgY5rFeXnG3A56zb
+
+jasypt:
+  encryptor:
+    password: xiaoxueblog

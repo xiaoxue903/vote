@@ -1,0 +1,10 @@
+${AnsiColor.BLUE}
+
+ __   _______          ____   __   ___    _ ______
+ \ \ / /_   _|   /\   / __ \  \ \ / / |  | |  ____|
+  \ V /  | |    /  \ | |  | |  \ V /| |  | | |__
+   > <   | |   / /\ \| |  | |   > < | |  | |  __|
+  / . \ _| |_ / ____ \ |__| |  / . \| |__| | |____
+ /_/ \_\_____/_/    \_\____/  /_/ \_\\____/|______|
+
+${AnsiColor.BRIGHT_YELLOW} :: XIAOXUE ::  ${application.formatted-version}  based on  ${AnsiColor.RED}:: Spring Boot :: ${spring-boot.formatted-version} ${AnsiColor.BRIGHT_BLACK}
