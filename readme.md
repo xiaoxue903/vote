@@ -24,6 +24,8 @@ https://blog.xueqimiao.com/redis/37e5da/#_2%E3%80%81%E5%AE%89%E8%A3%85
 
 https://blog.xueqimiao.com/docker/cf2853/#_2%E3%80%81%E5%AE%89%E8%A3%85mysql
 
+数据库脚本在sql文件夹中
+
 ## 二、启动说明
 
 ### 1、配置修改
